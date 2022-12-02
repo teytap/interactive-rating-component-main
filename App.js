@@ -21,26 +21,26 @@ submitBtn.addEventListener("click", rateSubmit);
 rateBtn1.addEventListener("click", function () {
   rateNumber = 1;
   rateBtn1.style.background = "hsl(25, 97%, 53%)";
-  rateBtn2.style.background = "hsl(216, 12%, 54%)";
-  rateBtn3.style.background = "hsl(216, 12%, 54%)";
-  rateBtn4.style.background = "hsl(216, 12%, 54%)";
-  rateBtn5.style.background = "hsl(216, 12%, 54%)";
+  rateBtn2.style.background = "hsl(217, 10%, 41%)";
+  rateBtn3.style.background = "hsl(217, 10%, 41%)";
+  rateBtn4.style.background = "hsl(217, 10%, 41%)";
+  rateBtn5.style.background = "hsl(217, 10%, 41%)";
 });
 rateBtn2.addEventListener("click", function () {
   rateNumber = 2;
   rateBtn2.style.background = "hsl(25, 97%, 53%)";
   rateBtn1.style.background = "hsl(25, 97%, 53%)";
-  rateBtn3.style.background = "hsl(216, 12%, 54%)";
-  rateBtn4.style.background = "hsl(216, 12%, 54%)";
-  rateBtn5.style.background = "hsl(216, 12%, 54%)";
+  rateBtn3.style.background = "hsl(217, 10%, 41%)";
+  rateBtn4.style.background = "hsl(217, 10%, 41%)";
+  rateBtn5.style.background = "hsl(217, 10%, 41%)";
 });
 rateBtn3.addEventListener("click", function () {
   rateNumber = 3;
   rateBtn3.style.background = "hsl(25, 97%, 53%)";
   rateBtn2.style.background = "hsl(25, 97%, 53%)";
   rateBtn1.style.background = "hsl(25, 97%, 53%)";
-  rateBtn4.style.background = "hsl(216, 12%, 54%)";
-  rateBtn5.style.background = "hsl(216, 12%, 54%)";
+  rateBtn4.style.background = "hsl(217, 10%, 41%)";
+  rateBtn5.style.background = "hsl(217, 10%, 41%)";
 });
 rateBtn4.addEventListener("click", function () {
   rateNumber = 4;
@@ -48,7 +48,7 @@ rateBtn4.addEventListener("click", function () {
   rateBtn2.style.background = "hsl(25, 97%, 53%)";
   rateBtn1.style.background = "hsl(25, 97%, 53%)";
   rateBtn3.style.background = "hsl(25, 97%, 53%)";
-  rateBtn5.style.background = "hsl(216, 12%, 54%)";
+  rateBtn5.style.background = "hsl(217, 10%, 41%)";
 });
 rateBtn5.addEventListener("click", function () {
   rateNumber = 5;
