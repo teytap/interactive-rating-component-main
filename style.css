@@ -13,8 +13,8 @@ h2 {
 }
 .container {
   background: hsl(213, 19%, 18%);
-  width: 400px;
-  height: 400px;
+  max-width: 400px;
+  max-height: 400px;
   border-radius: 30px;
   display: block;
   margin: 0 auto;
@@ -91,4 +91,11 @@ h2 {
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+@media (max-width: 375) {
+  .rate-btn {
+    padding: 12px 12px;
+    font-size: 12px;
+    margin: auto;
+  }
 }
