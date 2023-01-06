@@ -19,27 +19,54 @@
       href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="/src/style.css" />
   </head>
   <body>
     <!-- Rating state start -->
 
     <main id="container">
-      <div id="rating-page">
-        <span class="star">★</span>
+      <div id="first-page">
+        <button class="star">★</button>
         <h1>How did we do?</h1>
-        <p>
+        <p id="warning">
           Please let us know how we did with your support request. All feedback
           is appreciated to help us improve our offering!
         </p>
-        <div class="row">
-          <button class="rate-btn" id="rate-btn1">1</button>
-          <button class="rate-btn" id="rate-btn2">2</button>
-          <button class="rate-btn" id="rate-btn3">3</button>
-          <button class="rate-btn" id="rate-btn4">4</button>
-          <button class="rate-btn" id="rate-btn5">5</button>
-        </div>
-        <button id="submit-btn">SUBMIT</button>
+        <form>
+          <input type="radio" id="one" name="rating" class="rating" value="1" />
+          <label for="one">1</label>
+
+          <input type="radio" id="two" name="rating" class="rating" value="2" />
+          <label for="two">2</label>
+
+          <input
+            type="radio"
+            id="three"
+            name="rating"
+            class="rating"
+            value="3"
+          />
+          <label for="three">3</label>
+
+          <input
+            type="radio"
+            id="four"
+            name="rating"
+            class="rating"
+            value="4"
+          />
+          <label for="four">4</label>
+
+          <input
+            type="radio"
+            id="five"
+            name="rating"
+            class="rating"
+            value="5"
+          />
+          <label for="five">5</label>
+        </form>
+        <button type="submit" id="submit-btn">Submit</button>
       </div>
       <div id="message">
         <img
@@ -55,6 +82,7 @@
           We appreciate you taking the time to give a rating. If you ever need
           more support, don’t hesitate to get in touch!
         </div>
+        <button id="back-btn">🔙</button>
       </div>
     </main>
 
@@ -66,6 +94,6 @@
         >. Code d by <a href="#">Mehtap Tataroğlu</a>.
       </div>
     </footer>
-    <script src="App.js"></script>
+    <script src="/src/App.js"></script>
   </body>
 </html>
